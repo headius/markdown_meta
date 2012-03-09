@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'markdown_meta'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.summary = "Meta-gem for markdown parsing"
   s.date = '2012-03-09'
   s.email = 'headius@headius.com'
@@ -18,4 +18,5 @@ Gem::Specification.new do |s|
   ]
   # = MANIFEST =
   s.require_paths = ["lib"]
+  s.add_dependency 'kramdown'
 end
